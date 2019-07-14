@@ -45,7 +45,7 @@ generatePassword() {
 }
 
 randomNumber() {
-  python -S -c "import random; print random.randrange(12,64)"
+  python -S -c "import random; print(random.randrange(12,64))"
 }
 
 declare copy=
